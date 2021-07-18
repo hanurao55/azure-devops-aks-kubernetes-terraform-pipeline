@@ -69,6 +69,7 @@ stages:
       strategy:
         runOnce:
           deploy:
+            steps:            
             - task: TerraformCLI@0
               displayName: Terraform Init
               inputs:
@@ -114,7 +115,7 @@ stages:
       strategy:
         runOnce:
           deploy:
-            steps:            
+            steps: 
             - task: TerraformCLI@0
               displayName: Terraform Init
               inputs:
