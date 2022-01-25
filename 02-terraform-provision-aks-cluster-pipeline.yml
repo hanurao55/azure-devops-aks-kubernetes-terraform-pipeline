@@ -38,7 +38,7 @@ stages:
           backendType: 'azurerm'
           backendServiceArm: 'terraform-aks-azurerm-svc-con'
           backendAzureRmResourceGroupName: 'devopslabs'
-          backendAzureRmStorageAccountName: 'desvopslab55'
+          backendAzureRmStorageAccountName: 'devopslab55'
           backendAzureRmContainerName: 'tfstatefiles'
           backendAzureRmKey: 'aks-base.tfstate'
           allowTelemetryCollection: false
@@ -81,7 +81,7 @@ stages:
                 backendType: 'azurerm'
                 backendServiceArm: 'terraform-aks-azurerm-svc-con'
                 backendAzureRmResourceGroupName: 'devopslabs'
-                backendAzureRmStorageAccountName: 'desvopslab55'
+                backendAzureRmStorageAccountName: 'devopslab55'
                 backendAzureRmContainerName: 'tfstatefiles'
                 backendAzureRmKey: 'aks-$(DEV_ENVIRONMENT).tfstate'
                 allowTelemetryCollection: false
