@@ -8,5 +8,5 @@ tenant_id = "cddd6868-6efe-47c5-aba6-faf5b5512fce"
 resource "azuread_group" "aks_administrators" {
   name        = "${azurerm_resource_group.aks_rg.name}-administrators"
   description = "Azure AKS Kubernetes administrators for the ${azurerm_resource_group.aks_rg.name}-administrators cluster."
-  security_enabled=true
+  #security_enabled=true
 }
